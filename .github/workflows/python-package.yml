@@ -26,11 +26,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r M6_AST1_Titanic_Project_MLOps/requirements/requirements.txt
         
-    - name: train pipeline
+    - name: Train pipeline
       run: |
-        python M6_AST1_Titanic_Project_MLOps/requirements/test_requirements.txt
+        python M6_AST1_Titanic_Project_MLOps/titanic_model/train_pipeline.py
         
-    - name: Test wit pytest
+    - name: Test with pytest
       run: |
         pytest
         
