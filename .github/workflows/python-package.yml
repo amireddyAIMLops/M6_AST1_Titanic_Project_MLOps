@@ -28,7 +28,7 @@ jobs:
         
     - name: train pipeline
       run: |
-        python M6_AST1_Titanic_Project_MLOps\requirements/test_requirements.txt
+        python M6_AST1_Titanic_Project_MLOps/requirements/test_requirements.txt
         
     - name: Test wit pytest
       run: |
